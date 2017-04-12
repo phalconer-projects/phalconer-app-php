@@ -1,7 +1,7 @@
 {
     "name": "phalconer/phalconer-app-php",
     "description": "The PHP version of Phalconer app module",
-    "keywords": ["phalconer", "web", "app"],
+    "keywords": ["phalconer", "web", "framework", "app"],
     "homepage": "https://github.com/phalconer-projects/phalconer-app-php/",
     "type": "library",
     "license": "CC0",
