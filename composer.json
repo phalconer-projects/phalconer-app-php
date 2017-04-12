@@ -1,0 +1,35 @@
+{
+    "name": "phalconer/phalconer-app-php",
+    "description": "The PHP version of Phalconer app module",
+    "keywords": ["phalconer", "web", "app"],
+    "homepage": "https://github.com/phalconer-projects/phalconer-app-php/",
+    "type": "library",
+    "license": "CC0",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url":  "https://github.com/Behat/Behat.git"
+        },
+        {
+            "type": "git",
+            "url":  "https://github.com/phalconer-projects/phalconer-common-php.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-phalcon": "~3.0",
+        "phalcon/incubator": "~3.0",
+        "phalconer/phalconer-common-php": "master"
+    },
+    "require-dev": {
+        "behat/behat": "master",
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "phalconer\\app\\": "src/",
+            "phalconer\\test\\": "test/"
+        }
+    }
+}
